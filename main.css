@@ -1,0 +1,136 @@
+
+
+body {
+  margin: 0;
+  width:100%;
+  height:100%;
+
+
+}
+
+header {
+  font-family: 'Holtwood One SC', serif;
+  font-size: 15px;
+  color: orange;
+  background-color: black;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+
+  }
+
+header h1{
+margin:0;
+padding:10px;
+
+  }
+header h2 {
+    padding-right: 20px
+  }
+
+.frontpage {
+background-image: url("http://atgbcentral.com/data/out/151/5291702-house-images.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+width: 100%;
+height:800px;
+filter: blur(2px);
+}
+
+.frontText {
+  font-family: 'Holtwood One SC', serif;
+  font-size: 35px;
+  text-align: center;
+display: block;
+height: 600px;
+padding-top: 100px;
+text-shadow: 3px 3px black;
+color: #FF851B;
+}
+
+a {
+  color: #FF851B;
+
+}
+
+
+.container .row {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+  .row {
+    object-fit: cover;
+}
+
+
+.container  {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin:0;
+  border: 5px; solid, black;
+font-family: 'Roboto', sans-serif;
+font-style: italic;
+font-weight: bold;
+font-size: 30px;
+  border-bottom:5px solid black;
+  text-shadow: 1px 1px #FF851B;
+  background: linear-gradient(to bottom, #ffffff 3%, #ff9900 100%);
+
+}
+.one{
+  position: relative;
+  text-align: center;
+  color: white;
+  object-fit: cover;
+
+
+  }
+
+  .one img {
+  max-width: 100%;
+   height: auto;
+   margin:5px;
+   display:flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   object-fit: cover;
+   border-radius: 20px;
+
+
+  }
+  .text {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+  }
+
+  footer {
+    background: grey;
+    height:100%;
+    margin:0;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left:10px;
+    justify-content: space-between;
+    letter-spacing: 2px;
+  }
+  footer a {
+    float:right;
+    color: black;
+    padding: 10px;
+  }
